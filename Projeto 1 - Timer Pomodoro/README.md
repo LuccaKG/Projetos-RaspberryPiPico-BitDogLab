@@ -64,7 +64,11 @@ Para ver o projeto em ação, confira o vídeo disponível abaixo:
 
 
 
-https://github.com/user-attachments/assets/5712630c-78d7-4362-8b92-37b2d97691f4
+
+
+https://github.com/user-attachments/assets/7773d580-bf6a-4cab-bf5f-90132a93adc8
+
+
 
 
 
