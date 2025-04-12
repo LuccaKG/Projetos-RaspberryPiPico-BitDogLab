@@ -32,7 +32,7 @@ O projeto foi idealizado pelo professor Fabiano Fruett, da UNICAMP, e tem mais i
 
 ## 💻 Sobre a IDE Thonny
 
-Thonny é uma IDE (Ambiente de Desenvolvimento Integrado) simples e amigável, desenvolvida especialmente para iniciantes em programação Python. Ela vem com o Python pré-instalado e possui recursos úteis como destaque de erros, depuração passo a passo, visualização de variáveis e integração com MicroPython, o que facilita bastante o desenvolvimento para placas como a Raspberry Pi Pico.
+**Thonny** é uma IDE (Ambiente de Desenvolvimento Integrado) simples e amigável, desenvolvida especialmente para iniciantes em programação Python. Ela vem com o Python pré-instalado e possui recursos úteis como destaque de erros, depuração passo a passo, visualização de variáveis e integração com MicroPython, o que facilita bastante o desenvolvimento para placas como a Raspberry Pi Pico.
 
 ![How-to-Program-ESP32-in-MicroPython-using-Thonny-IDE](https://github.com/user-attachments/assets/3d29f664-c953-4158-9b76-8449d122fccc)
 
