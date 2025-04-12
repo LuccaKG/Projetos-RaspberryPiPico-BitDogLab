@@ -2,7 +2,9 @@
 
 Nesse repositório, desenvolveremos projetos em MicroPython para a placa de desenvolvimento BitDogLab, que tem como núcleo o microcontrolador RP2040.
 
-Tais projetos serão avaliados pelo professor Eric Rohmer na disciplina EA801 da UNICAMP.
+A IDE utilizada será a Thonny, que fornece suporte a Rasperry Pi Pico com programação em MicroPython.
+
+Os projetos serão avaliados pelo professor Eric Rohmer na disciplina EA801 da UNICAMP.
 
 
 ## 𝝿 Sobre a Raspberry Pi Pico
@@ -26,5 +28,11 @@ O projeto foi idealizado pelo professor Fabiano Fruett, da UNICAMP, e tem mais i
 
 **MicroPython** é uma implementação eficiente e enxuta da linguagem Python 3, desenvolvida especificamente para rodar em microcontroladores e dispositivos embarcados com recursos limitados. Ele oferece uma interface interativa (REPL), permitindo testar comandos em tempo real, além de suportar bibliotecas específicas para manipulação de hardware como GPIOs, I2C, SPI, PWM, ADC, entre outros.
 
+![hadimg_belay_feat](https://github.com/user-attachments/assets/24a1c577-41b8-4200-82d3-e516395930c7)
 
+## 💻 Sobre a IDE Thonny
+
+Thonny é uma IDE (Ambiente de Desenvolvimento Integrado) simples e amigável, desenvolvida especialmente para iniciantes em programação Python. Ela vem com o Python pré-instalado e possui recursos úteis como destaque de erros, depuração passo a passo, visualização de variáveis e integração com MicroPython, o que facilita bastante o desenvolvimento para placas como a Raspberry Pi Pico.
+
+![How-to-Program-ESP32-in-MicroPython-using-Thonny-IDE](https://github.com/user-attachments/assets/3d29f664-c953-4158-9b76-8449d122fccc)
 
