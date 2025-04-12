@@ -60,9 +60,13 @@ Projeto educacional baseado na placa **BitDogLab** (Raspberry Pi Pico), que impl
 
 ![WhatsApp Image 2025-04-12 at 12 20 19](https://github.com/user-attachments/assets/510f6b7f-1e29-44ea-862c-7662511346a0)
 
-Para ver o projeto em ação, confira o vídeo disponível em: 
+Para ver o projeto em ação, confira o vídeo disponível abaixo: 
 
-[INSERIR LINK AQUI]
+
+
+https://github.com/user-attachments/assets/5712630c-78d7-4362-8b92-37b2d97691f4
+
+
 
 ---
 
