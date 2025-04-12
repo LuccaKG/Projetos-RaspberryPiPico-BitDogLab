@@ -1,4 +1,4 @@
-# Desenvolvimento em Raspberry Pi Pico -- plataforma BitDogLab
+# Desenvolvimento em Raspberry Pi Pico — plataforma BitDogLab
 
 Nesse repositório, desenvolveremos projetos em MicroPython para a placa de desenvolvimento BitDogLab, que tem como núcleo o microcontrolador RP2040.
 
