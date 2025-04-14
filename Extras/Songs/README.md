@@ -4,7 +4,8 @@ Neste espaço, adicionarei códigos que utilizam o buzzer para reproduzir músic
 
 Todos os códigos compartilharão da mesma base, com distinção adicionada no trecho abaixo:
 
-<pre>notes = [
+<pre># Exemplo para Darth Vader Theme Song
+    notes = [
     440, 440, 440, 349, 523, 440, 349, 523, 440, 0,
     659, 659, 659, 698, 523, 415, 349, 523, 440, 0
 ]
