@@ -28,9 +28,9 @@ Projeto educacional baseado na placa **BitDogLab** (Raspberry Pi Pico), que impl
 - 🖥️ **Display OLED 0.96” I2C (SSD1306)**:
   - SDA → GPIO14
   - SCL → GPIO15
-- 🔴🟢 **LED RGB**:
+- 🔴🔵 **LED RGB**:
   - Vermelho → GPIO12
-  - Verde → GPIO13
+  - Azul → GPIO13
 
 ---
 
@@ -52,7 +52,7 @@ Projeto educacional baseado na placa **BitDogLab** (Raspberry Pi Pico), que impl
    - Acompanhe o progresso no **OLED** e nos **LEDs**.
    - Ao final de cada fase, o **buzzer soará**.
    - Pressione o botão A para parar o som e continuar.
-   - Pressione o **botão B a qualquer momento** para cancelar o ciclo e redefinir os tempos.
+   - Pressione o **botão B após o fim do tempo de estudos ou descanso** para cancelar o ciclo e redefinir os tempos.
 
 ---
 
