@@ -15,10 +15,16 @@ durations = [
     0.5, 0.5, 0.5, 0.35, 0.15, 0.5, 0.35, 0.15, 1.0, 0.5
 ]</pre>
 
+
+
+https://github.com/user-attachments/assets/25aa3f7d-8a5f-4b25-be5a-463895b40380
+
+
+
 Cada música terá, obviamente, seu próprio conjunto de notas (representadas pelas suas respectivas frequências) e durações de cada nota.
 
 O maior desafio, então, é conseguir "traduzir" o trecho de música estudado em elementos de *nota* e *duração*.
 
-## 📝 To Do
-Criar um script em Python que receba o arquivo de áudio e consiga transcrever suas notas e a duração de cada uma.
+## 🎥 Resultados
 
+Os vídeos relativos a cada música estão disponíveis em: [BitDogLab Songs](https://drive.google.com/drive/folders/1v-kbzxXJ1a3fr9VF7i9Vzy3q8bqQ8yk_?usp=sharing).
