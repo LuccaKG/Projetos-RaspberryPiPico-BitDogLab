@@ -14,7 +14,7 @@ from ssd1306 import SSD1306_I2C  # Biblioteca para o display OLED
 
 # LED RGB (GPIOs 12 e 13)
 led_red = Pin(12, Pin.OUT)
-led_green = Pin(13, Pin.OUT)
+led_blue = Pin(13, Pin.OUT)
 
 # Buzzer com PWM (GPIO21)
 buzzer = PWM(Pin(21))
@@ -124,13 +124,13 @@ def select_times():
 
             time.sleep(0.05)
 
-    tempo_estudo = choose_time("Tempo de estudo", 25)
+    tempo_estudo = choose_time("Tempo - estudos", 10)
     if tempo_estudo is None:
         return None, None
 
     time.sleep(0.5)
 
-    tempo_descanso = choose_time("Tempo de descanso", 5)
+    tempo_descanso = choose_time("Tempo - descanso", 5)
     if tempo_descanso is None:
         return None, None
 
@@ -141,7 +141,7 @@ def select_times():
 def study_phase(study_time):
     show_oled("Estudo iniciado", f"{study_time}s")
     led_red.value(0)
-    led_green.value(0)
+    led_blue.value(0)
 
     if show_bar_interruptible(study_time, "Estudo"):
         show_oled("Interrompido", "Estudo cancelado")
@@ -149,7 +149,7 @@ def study_phase(study_time):
 
     led_red.value(1)
     buzzer_alert()
-    show_oled("Fim do estudo", "Pressione o botao")
+    show_oled("Fim do estudo", "Aperte o botao")
 
     while button.value():
         if check_interrupt():
@@ -161,7 +161,7 @@ def study_phase(study_time):
     wait_for_button_press()
     buzzer_stop()
     led_red.value(0)
-    led_green.value(1)
+    led_blue.value(1)
     return False
 
 # === FASE DE DESCANSO ===
@@ -172,10 +172,10 @@ def rest_phase(descanso_time):
         show_oled("Interrompido", "Descanso cancelado")
         return True
 
-    led_green.value(0)
+    led_blue.value(0)
     led_red.value(1)
     buzzer_alert()
-    show_oled("Fim do descanso", "Pressione o botao")
+    show_oled("Fim do descanso", "Aperte o botao")
 
     while button.value():
         if check_interrupt():
@@ -187,7 +187,7 @@ def rest_phase(descanso_time):
     wait_for_button_press()
     buzzer_stop()
     led_red.value(0)
-    led_green.value(0)
+    led_blue.value(0)
     return False
 
 # === CICLO COMPLETO ===
@@ -209,4 +209,4 @@ while True:
     while True:
         interromper = pomodoro_cycle(tempo_estudo, tempo_descanso)
         if interromper:
-            break  # Volta para redefinir os tempos
+            break  # Volta para redefinir os tempos	
