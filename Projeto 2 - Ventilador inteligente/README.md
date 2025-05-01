@@ -21,6 +21,8 @@ Este projeto utiliza a placa educacional **BitDogLab** baseada no **Raspberry Pi
   - Temperatura ≥ 29 °C → ventilador a **100%**
   - 28.5 °C ≤ Temperatura < 29 °C → ventilador a **50%**
   - Temperatura < 28.5 °C → **motor desligado**
+    
+Obs.: intervalos de temperatura escolhidos apenas por critérios de simplicidade para demonstração.
 
 ---
 
@@ -57,31 +59,29 @@ Este projeto utiliza a placa educacional **BitDogLab** baseada no **Raspberry Pi
 
 ## 🖥️ Exemplo de exibição no display OLED
 
-```
-Temp.: 28.7 C
-Pessoa presente!
-Ventilador: 50%
-```
+![display_smartFan](https://github.com/user-attachments/assets/610a1987-e9e0-42dc-b8f0-b4e6d5c20675)
 
----
 
-## 📁 Arquivo principal
-
-O código está no arquivo `main.py`.
-
----
 
 ## ▶️ Como usar
 
-1. Grave o código na **BitDogLab** com o MicroPython.
-2. Conecte os sensores e o motor conforme indicado.
-3. Alimente a placa e observe o comportamento com base em **temperatura + presença**.
+1. Siga os passos descritos [aqui](https://electrocredible.com/bmp280-raspberry-pi-pico-micropython-guide/) para carregar na RP2040 a biblioteca para uso do BMP280
+2. Realize as conexões conforme esquemático abaixo:
+
+[Adicionar esquemático aqui]
+
+3. Rode o código SmartFan.py na **BitDogLab** com o MicroPython.
 
 ---
 
 ## 📷 Demonstração
 
-[ToDo]
+Utilizei um ferro de passar para forçar o aquecimento do ambiente e acelerar a demonstração do funcionamento do ventilador a 50% e a 100%.
+
+
+https://github.com/user-attachments/assets/57ac7680-db3d-418f-8c6a-69a76fe1c044
+
+
 
 ---
 
