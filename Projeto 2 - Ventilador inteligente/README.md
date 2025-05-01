@@ -19,7 +19,7 @@ Este projeto utiliza a placa educacional **BitDogLab** baseada no **Raspberry Pi
 - Se **não houver pessoa presente**, o ventilador permanece **desligado**
 - Se **pessoa presente**:
   - Temperatura ≥ 29 °C → ventilador a **100%**
-  - Temperatura ≥ 28.5 °C → ventilador a **50%**
+  - 28.5 °C ≤ Temperatura < 29 °C → ventilador a **50%**
   - Temperatura < 28.5 °C → **motor desligado**
 
 ---
@@ -34,7 +34,7 @@ Este projeto utiliza a placa educacional **BitDogLab** baseada no **Raspberry Pi
 | Ponte H L298N          | Controle de motor DC              |
 | Motor DC               | Alimentado com 5–9 V              |
 | Display OLED SSD1306   | Interface visual (I2C)            |
-| Fonte externa + regulador | Alimentação de motor e lógica  |
+| 4 pilhas de 1.5V       | Alimentação de motor     |
 
 ---
 
@@ -55,7 +55,7 @@ Este projeto utiliza a placa educacional **BitDogLab** baseada no **Raspberry Pi
 
 ---
 
-## 🖥️ Exibição no display OLED
+## 🖥️ Exemplo de exibição no display OLED
 
 ```
 Temp.: 28.7 C
@@ -81,11 +81,7 @@ O código está no arquivo `main.py`.
 
 ## 📷 Demonstração
 
-Você pode adicionar aqui uma imagem ou vídeo do funcionamento se quiser:
-
-```
-[![Demo](demo.gif)](demo.mp4)
-```
+[ToDo]
 
 ---
 
