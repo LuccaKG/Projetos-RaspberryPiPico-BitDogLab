@@ -68,7 +68,8 @@ Obs.: intervalos de temperatura escolhidos apenas por critérios de simplicidade
 1. Siga os passos descritos [aqui](https://electrocredible.com/bmp280-raspberry-pi-pico-micropython-guide/) para carregar na RP2040 a biblioteca para uso do BMP280
 2. Realize as conexões conforme esquemático abaixo:
 
-[Adicionar esquemático aqui]
+![SmartFanScm](https://github.com/user-attachments/assets/c1378500-7e58-440e-b5d0-dc40b7c80ff0)
+
 
 3. Rode o código SmartFan.py na **BitDogLab** com o MicroPython.
 
